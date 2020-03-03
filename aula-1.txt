@@ -1,0 +1,7 @@
+Objetivo inicial -> Disponibilizar documentos dos pesquisadores do CERN
+
+Web x Desktop -> Independente de S.O. (Multiplataforma); Poder acessar uma informação de qualquer lugar via HTTP
+
+Web 2.0 -> Web semântica = Considerar as buscas dos usuario de acordo com as infos que o servidor tem sobre voce
+
+HTML5 -> Ja tem player de video e audio, componentes ricos de interface sem nescessidade de utilizar plugins, não impactando no UX assim.
