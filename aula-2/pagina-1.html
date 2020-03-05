@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Titulo da pagina na aba do navegador-->
+    <title>Dicas de RPG</title>
+    <!--Metadados para os indexados de busca-->
+    <meta name="keywords" content="pagina do burca" />
+  </head>
+  <body>
+    <!--Diferentes estilos de cabeçalho-->
+    <h1>Dicas de RPG</h1>
+    <h2>Dungeons and Dragons</h2>
+    <h3>Vamos as dicas</h3>
+
+    <!--Paragrafo-->
+    <p>Dicas aqui !</p>
+
+    <!--Não esquecer do protocolo !-->
+    <a href="http://google.com">Google</a>
+    <!--A tag br vem de Break Line => quebra de linha-->
+    <br />
+
+    <!--Apenas o nome da pagina = endereço absoluto = a partir de onde está no momento-->
+    <a href="pagina-2.html">Absoluto</a>
+    <br />
+
+    <!--Com barra = endereço relativo = usa o caminho inteiro-->
+    <a href="C:/Users/rlpel/Desktop/utfpr/utfpr-web1/aula-2/pagina-2.html"
+      >Relativo</a
+    >
+    <br />
+
+    <!--Link com ancora para ir ao elemento com id = guerreiro-->
+    <a href="#id-guerreiro">Ir para Guerreiro</a>
+
+    <!--Break lines para poder testar as ancoras-->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!--Teste das ancora com id mago-->
+    <h1 id="id-mago">Mago</h1>
+
+    <!--Break lines para poder testar as ancoras-->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!--Teste das ancora com id guerreiro-->
+    <h1 id="id-guerreiro">Guerreiro</h1>
+
+    <!--Imagem carregada a partir de um arquivo, com um texto alternativo, com altura e largura especificadas (mas não é necessário especificar); O intuito é reaproveitar conteúdo, não usar conteúdos locais-->
+    <img
+      src="psychedelic-image.jpg"
+      alt="Imagem muito psicodélica"
+      width="500px"
+      height="300px"
+    />
+
+    <!--Imagem carregada a partir de um link, com um texto alternativo (perigo: se o link mudar, a imagem não sera renderizada)-->
+    <img
+      src="https://image.freepik.com/fotos-gratis/gotas-de-oleo-na-imagem-abstrata-padrao-psicodelico-de-agua_23-2148290141.jpg"
+      alt="Imagem muito psicodélica"
+    />
+
+    <!--Tabela com atributo borda setado para 1 (true)-->
+    <table border="1">
+      <!--Linhas da tabela (Table Row)-->
+      <tr>
+        <!--Cabeçalhos das colunas da tabela (Table Heading)-->
+        <th>Raça</th>
+        <th>Classe</th>
+      </tr>
+      <tr>
+        <!--Dados colunas da tabela (Table Data)-->
+        <td>Elfo</td>
+        <td>Mago</td>
+      </tr>
+      <tr>
+        <td>Orc</td>
+        <td>Barbaro</td>
+      </tr>
+    </table>
+
+    <!--Lista não ordenada (Unordered List = bullets) contendo alguns itens (List Item)-->
+    <ul>
+      <li>Poção de Vida</li>
+      <li>Poção de Mana</li>
+      <li>Corda</li>
+      <li>Ração de Viagem</li>
+    </ul>
+
+    <!--Lista ordenada (Ordered List = numeração) contendo alguns itens (List Item)-->
+    <ol>
+      <li>Poção de Vida</li>
+      <li>Poção de Mana</li>
+      <li>Corda</li>
+      <li>Ração de Viagem</li>
+    </ol>
+
+    <!--Formulário-->
+    <form>
+      <!--Label com um atributo "for" com o valor "id-input-nome"-->
+      <label for="id-input-nome">Nome:</label>
+      <!--Input para o usuário inserir um texto-->
+      <input id="id-input-nome" type="text"> </input>
+
+      <!--Label com um atributo "for" com o valor "id-input-idade"-->
+      <label for="id-input-idade">Idade:</label>
+      <!--Input para o usuário inserir um numero-->
+      <input id="id-input-idade" type="number"> </input>
+
+      <!--Botão para enviar o conteudo do formulario (enviar como ?...faltou algum post eu acho)-->
+      <button>Enviar personagem</button>
+    </form>
+
+    <!--IFrame => apresentar um conteudo de outro website dentro dele-->
+    <iframe src="http://uol.com" height="300" width="500"></iframe>
+  </body>
+</html>
