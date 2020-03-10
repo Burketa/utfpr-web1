@@ -1,0 +1,9 @@
+CSS (Cascading Style Sheets)
+
+Ideia do CSS -> Formatações macro combinado com formatações micro (do macro para o micro, os micros sobrepões as macros)
+
+<seletor>(que é uma tag HTML) -> seletor { chave_da_caracteristica:valor } -> body {color:black}
+
+TODOS os componentes do seletor serão estilizados com o definido no CSS
+
+Projeto -> Reproduzir uma copia fiel de uma página

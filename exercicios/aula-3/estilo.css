@@ -1,0 +1,23 @@
+#dainf {
+    font-size: 50px;
+}
+
+#image {
+    position: right;
+    width: 100px;
+    margin-left: 300px;
+}
+
+#outer-most-div {
+    background-color: green;
+    padding-left: 50px;
+}
+
+#coordenadores {
+    background-color: blue;
+    font-size: 50px;
+}
+
+#middle-ul {
+    background-color: red;
+}

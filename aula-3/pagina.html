@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<head>
+  <!--Adicionado link para o arquivo CSS (para boas praticas, sempre especificar o tipo) (Importação externa)-->
+  <link rel="stylesheet" type="text/CSS" href="estilo.css">
+
+  <!--(Importação externa modo 2) (nao tem diferença o modo 1 e 2, apenas preferencia)-->
+  <style type="text/CSS">@import url("estilo.css");</style>
+
+  <!--(Importação interna) (não é recomendada)-->
+  <style type="text/CSS">h1 { color:green }</style>
+
+  <title>Aula de CSS</title>
+</head>
+
+<body>
+  <h1>Primeira aula de CSS</h1>
+  <h1>Google</h1>
+  <h2>Amazon</h2>
+  <h3>Netflix</h3>
+  <img
+    src="https://image.freepik.com/fotos-gratis/gotas-de-oleo-na-imagem-abstrata-padrao-psicodelico-de-agua_23-2148290141.jpg"
+    width="200px" height="200px" />
+  <p>
+    O amor é uma dor. É um tédio sem remédio. É um prédio desabando.O amor é uma dor. É um tédio sem remédio. É um
+    prédio desabando.O amor é uma dor. É um tédio sem remédio. É um prédio desabando.O amor é uma dor. É um tédio sem
+    remédio. É um prédio desabando.O amor é uma dor. É um tédio sem remédio. É um prédio desabando.O amor é uma dor. É
+    um tédio sem remédio. É um prédio desabando.O amor é uma dor. É um tédio sem remédio. É um prédio desabando.
+  </p>
+
+  <!--Estilizações inline tem a maior prioridade de todas-->
+  <p style="color:salmon">Esse é um teste com estilização inline</p>
+  
+  <!--Sites legais para ver CSS's interessantes e aprender-->
+  <p>Coisas Legais em CSS -></p>
+  <a href="http://www.csszengarden.com/">Zen Garden</a>
+  <br/>
+  <a href="https://codepen.io/">Codepen</a>
+
+  <!--Estilizações usando classes CSS-->
+  <h4>Coca-cola</h4>
+  <ul>
+    <!--Estilização de um item da lista usando classe CSS-->
+    <li class="cocacola">Gostoso</li>
+    <li>Preto</li>
+  </ul>
+
+  <h4>Pepsi</h4>
+  <!--Estilização de todos itens da lista usando classe CSS-->
+  <ul class="pepsi">
+    <li>Ruim</li>
+    <li>Preto</li>
+  </ul>
+
+  <!--Estilização utilizando classe CSS (sobrepõe o seletor h4 do css)-->
+  <h4 class="fanta">Fanta</h4>
+  <ul>
+    <li>Mediano</li>
+    <li>Laranja</li>
+  </ul>
+
+  <!--Estilização utilizando classe CSS (com agrupamento de elementos, fica roxo pois o css esta roxo para o h4, mesmo usando o nome guarana-jesus)-->
+  <h4 class="guarana-jesus">Guarana jesus</h4>
+  <ul>
+    <!--Estilização utilizando classe CSS (com agrupamento de elementos, fica pink pois o css esta pink para o li, mesmo usando o nome guarana-jesus)-->
+    <li class="guarana-jesus">PÉSSIMO</li>
+    <li>Rosa</li>
+  </ul>
+
+  <!--Linha horizontal na pagina (Horizontal Rule)-->
+  <hr />
+
+  <!--Estilização do paragrafo utilizando id no CSS-->
+  <p id="idFlamengo">O flamento esta no meu coração</p>
+
+  <hr />
+  
+  <!--Utilizando tag span (concatena o que esta antes e depois) para colorir, porém, na mesma linha -->
+  <p>Estou ansioso pra ir embora <span>comer, ver seriados e dormir !</span></p>
+  
+  <hr />
+  
+  <!--Utilizando divs para agrupar elementos e estiliza-los simultâneamente (muito utilizado para responsividade)-->
+  <div class="categoria">
+    <p>Carros</p>
+    <p>Economia</p>
+    <p>Entretenimento</p>
+    <p>Cultura</p>
+  </div>
+  
+  <div class="publicidade">
+    <p>Airbnbn</p>
+    <p>Uber</p>
+    <p>Cruchyroll</p>
+    <p>Sazon</p>
+  </div>
+  
+  <div class="nomes">
+    <p>Maria</p>
+    <p>Joao</p>
+    <p>Flavio</p>
+    <p>Josiscreisson</p>
+  </div>
+</body>
