@@ -1,0 +1,37 @@
+/**/
+
+.outermost-box {
+    width: 500px;
+    height: 500px;
+    border: 3px dashed black;
+    margin: auto;
+}
+
+.outer-box {
+    width: 400px;
+    height: 400px;
+    padding: 50px 50px 50px 50px;
+    background-color: red;
+}
+
+.middle-box {
+    width: 300px;
+    height: 300px;
+    padding: 50px 50px 50px 50px;
+    background-color: blue;
+}
+
+.inner-box {
+    width: 200px;
+    height: 200px;
+    padding: 50px 50px 50px 50px;
+    background-color: green;
+}
+
+.innermost-box {
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 150px;
+    background-color: yellow;
+}
