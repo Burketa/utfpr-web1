@@ -1,0 +1,23 @@
+ul {
+    font-size: 50px;
+}
+
+.lado-a-lado {
+    /* display -> como os itens se comportam quando a janela é redimensionada*/
+    /* basicos: inline(horizontal; quebra o texto no meio), block(vertical), inline-block(quebra a linha de acordo com o tamanho da janela; não quebra as coisas no meio, reposiciona certinho)*/
+    display: inline-block;
+}
+
+.simsalabim-desapareca {
+    /* retira completamente o objeto da listagem*/
+    display: none;
+}
+
+.invisivel-ativar {
+    /* apenas não renderiza o elemento, mas mantem o espaço que ocupa*/
+    visibility: hidden;
+}
+
+.texto-azul {
+    color: blue;
+}
